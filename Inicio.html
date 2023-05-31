@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        header label{
+            float: left;
+            margin-top: 20px;
+            margin-left: 5px;
+        }
+        header img{
+            float: left;
+        }
+        section button{
+            margin: 15px;
+            font-size: 200%;
+            font-family: Garamond;            
+            background-color:#12BAB6;
+            color: #FFFFFF;
+            border-radius: 15px;
+        }
+        section button:hover {
+            background-color:#FFFFFF;
+            color: black;
+            
+        }
+        header img{
+            margin-left: 30px;
+            margin-top: 15px;
+            width: 30px;
+        }
+        section img{
+            margin: auto;
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+<body style="background-color:#DEDEDE; font-family: Courier;">
+    <header>
+        <div >
+            <img src="https://cdn.pixabay.com/photo/2021/07/25/08/03/account-6491185_1280.png" alt="">
+            <label for=""><a href="Perfil.html" style="color: black;">Perfil</a></label>
+            <img src="https://cdn.pixabay.com/photo/2012/04/15/22/07/log-35496_1280.png" alt="">
+            <label for=""><a href="Ingresar.html" style="color: black;">Cerrar</a></label>
+    
+        </div>
+        <br>
+        <div style="text-align: center; font-family:Verdana; font-size:200%;"><h1>Software de Inventario</h1></div>
+        <br>
+    </header>
+    <section style="display: grid;
+    grid-template-columns: auto auto;">
+     <div class="dropdown">
+        <div type="button" data-bs-toggle="dropdown" style="position: fixed;right: 15px;bottom: 15px;">
+                      <img src="https://cdn.pixabay.com/photo/2013/04/01/21/29/help-99086_1280.png" alt="" width="30">
+      
+                  </div>
+        <div class="dropdown-menu">
+            <li><a class="dropdown-item" href="atencion.html">canales de atencion</a></li>
+            <li><a class="dropdown-item" href="preguntas.html">preguntas frecuentes</a></li>
+            <li><a class="dropdown-item" href="comentarios.html">comentarios</a></li>
+            <li><a class="dropdown-item" href="ayudar.html">como podemos ayudarte</a></li>
+      
+        </div>
+      </div>
+        <button onclick="location='Ingresos.html'">
+            <img src="https://cdn.pixabay.com/photo/2012/04/15/21/34/arrow-35387_1280.png" alt="" width="50">
+            Ingresos</button>
+        <button onclick="location='Salidas.html'">
+            <img src="https://cdn.pixabay.com/photo/2012/04/15/21/34/arrow-35386_1280.png" alt="" width="50">
+            Salidas</button>
+        <button onclick="location='Bajas.html'">
+            <img src="https://cdn.pixabay.com/photo/2021/02/19/14/44/delete-button-6030454_1280.png" alt="" width="50">
+            Bajas</button>
+        <button onclick="location='Consultas.html'">
+            <img src="https://cdn.pixabay.com/photo/2016/03/31/19/14/magnifying-glass-1294834_1280.png" alt="" width="50">
+            Consultas</button>           
+        <button onclick="location='Usuarios.html'">
+            <img src="https://cdn.pixabay.com/photo/2021/07/25/08/07/advisors-6491207_1280.png" alt="" width="50">
+            Usuarios</button>
+        <button onclick="location='RegistrarActivos.html'">
+            <img src="https://cdn.pixabay.com/photo/2021/07/25/08/05/add-6491195_1280.png" alt="" width="50">
+            Activos</button>
+       
+    </section>
+    <footer style="background-color:#12BAB6; 
+    text-align: center;">
+        <h3>Development Time</h3>
+        <label>
+            <a href="Mapa.html" style="color: black;">Mapa del Sitio</a></label>
+    </footer>
+     
+</body>
+</html>
